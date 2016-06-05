@@ -2,6 +2,8 @@
 
 A PHP script which allows the creation of a single Phabricator user by supplying parameters on script runtime. This is easier to call programmatically than Phabricator's interactive `bin/accountadmin` script.
 
+This was directly adapted from Phabricator's `bin/accountadmin` script.
+
 ## Usage
 
 This script must run on your Phabricator host. It utilises the `phabricator/scripts/__init_script__.php` to actually carry out operations on Phabricator.
